@@ -4,7 +4,6 @@
 Final Project (Individual)
 Class: Advanced Website Design
 Name: Shane Tracey
-Student ID: 105076627
 Due: August 8th, 2021
 Begin Workout Page & modal
 -->       
@@ -46,7 +45,6 @@ else
     header("Location:index.php");
     exit();
   }
-//$username = "shaner"; 
 $quote = "Dreams don't work unless you do!";
 ?>
 <!-- Page menu bar-->
@@ -330,9 +328,9 @@ if(!empty($_POST["wtype"])) // workout is saved (shows inputted data)
   
 /* Connecting to DB */
 $servername = "localhost";
-$usernamedb = "traceyu_awd"; 
-$passworddb= "awdfinalp";
-$dbname = "traceyu_awdfinalp";
+//$usernamedb = *insert username for database* ; 
+//$passworddb= *insert password for database*;
+//$dbname =  *insert name of database* ;
 
 //form has successfully been submitted
 
@@ -436,11 +434,9 @@ if ($conn->query($sql) === TRUE) {
       }
     }
     
-    
-    
     // make sure exercises were added to workout 
 
-    $exercise_a = explode(",",$_POST["ehiddenf"]); // might have to messa around with this
+    $exercise_a = explode(",",$_POST["ehiddenf"]); // might have to mess around with this
     $len = (count($exercise_a) / 5);
     //echo "len: ".$len." count: ".count($exercise_a)."";
       
