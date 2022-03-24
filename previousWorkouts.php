@@ -4,7 +4,6 @@
 Final Project (Individual)
 Class: Advanced Website Design
 Name: Shane Tracey
-Student ID: 105076627
 Due: August 4th, 2021
 Previous Workouts Page & modal
 -->       
@@ -73,9 +72,9 @@ $quote = "Dreams don't work unless you do!";
 
 /* Connecting to DB */
 $servername = "localhost";
-$usernamedb = "traceyu_awd"; 
-$passworddb = "awdfinalp";
-$dbname = "traceyu_awdfinalp";
+//$usernamedb = *insert username for database*; 
+//$passworddb = *insert password for database*;
+//$dbname = *insert name of database*;
 
 $wids = array();
 $cids = array();
