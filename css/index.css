@@ -1,0 +1,449 @@
+/* style sheet for landing page of Final Project for Advanced Web Design */
+html{
+    font-size: 100%; 
+}
+/* sets uniform widths for input types */
+input[type=text],input[type=email],input[type=tel],input[type=password],input[type=date], input[type=number], select, #ctry{ 
+    
+    width: 53%;
+    padding: 0.5%;
+    /*font-size: 1rem;*/
+    height: 20%;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: copperplate, papyrus;
+}
+
+button, optgroup {
+    font-family: copperplate, papyrus;
+}
+
+/* aligns inputs margins*/
+#fnd, #lnd,#dayd, #emaild,#phd,#pwcd,#ctryd,#pwdca, #aged, #usernamedca, #wtyped, #dated, #stimed, #etimed, #locationd, #distanced, #durationd, #ctyped {
+    margin-right: 30%
+}
+
+
+#cbd{
+    text-align: left;
+    margin-left: 31%
+}
+
+/* sets font-size for placeholders */
+::placeholder{
+    /*font-size: 1.25rem;*/
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+/* sets bg colors and margins */
+body {
+    background-color: rgb(145, 235, 227);
+    text-align: right; 
+    height: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: copperplate, papyrus;
+    
+}
+
+label {
+    color:gray;
+}
+section{
+    display:inline; /* might need to adjust */
+    background-color: orange;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    
+}
+
+.buttons{
+    background-color: orange;
+    padding: 1%;
+    margin: auto;
+    text-align: center;
+}
+/* header styles */
+
+h1{
+    color: gray; 
+    font-size: 1rem;
+}
+
+
+/* button styling */
+#submit {
+    padding: 1% 3.5%;
+    color: white;
+    background-color: rgb(84, 194, 84);
+    border: 1px solid rgb(84, 194, 84);
+    border-radius: 5px;
+}
+#fp {
+    padding: 1% 3.5%;
+    color: white;
+    background-color: rgb(167, 86, 167);
+    border: 1px solid rgb(167, 86, 167);
+    border-radius: 5px;
+}
+#ca{
+    padding: 1% 3.5%;
+    color: white;
+    background-color: rgb(75, 151, 221);
+    border: 1px solid rgb(75, 151, 221);
+    border-radius: 5px;
+}
+
+#hpb{
+    padding: 2% 3.5%;
+    color: white;
+    background-color: rgb(75, 151, 221);
+    border: 1px solid rgb(75, 151, 221);
+    border-radius: 5px;
+    width: 70%;
+    
+}
+
+#cancel {
+   padding: 1% 2%;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+
+p{
+    color: white;
+    /*text-align: center;*/
+}
+
+
+/* adding astericks to required fields */
+.required:after {
+    content:" *";
+    color: red;
+    margin: 0%;
+}
+
+/* new */
+
+/* header with logo and text */
+.headers{
+    display: block;
+    height: 30%;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-size: 1.5rem;
+}
+#h_logo{
+    margin-top: 2%;
+    width: 100%;
+    height: 65%;
+    line-height: 1px;
+    margin-bottom: 0%;
+}
+#h_text{
+    margin-top: 0%;
+    font-family: copperplate, papyrus;
+}
+#h_text2{
+    font-size: 75px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: copperplate, papyrus;
+    color: gray;
+}
+
+
+/* end header */
+
+.forms {
+    width: 70%;
+    margin: auto;
+    background-color: rgb(224, 190, 125);
+    border: 15px solid gray;
+    border-radius: 25px;
+}
+
+#pw, #username{
+    
+    width: 70%;
+    height: 20%;
+    font-size: 20px;
+}
+
+/* aligns inputs margins*/
+#pwd, #usernamed{
+    margin-right: 20%
+}
+.fpd{
+    margin: auto;
+    text-align: center;
+}
+.homepage_buttons{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.lm_content,.about_content{
+    color: white;
+    text-align: center;
+
+}
+.help_content{
+    color: white;
+    text-align: left;
+
+}
+.subtitle {
+    color: gray;
+}
+
+.main_header{
+    background-color: orange;
+    width: 100%;
+    height: 10%;
+    /*display: inline-block;  trying stuff*/
+}
+
+#h_logo_header{
+    width: 14%;
+    height: 7%;
+    margin-right: 2%;
+}
+#help_button,#about_button   
+{
+    width: 100%;
+    /*margin-left: 1%; 
+    margin-right: 1%; */
+    /* float: right; trying stuff*/
+    /*display: inline-block; */
+    padding: 8% 2%;
+    /* margin-top: 2%; */
+    color: white;
+    background-color: rgb(75, 151, 221);
+    border: 1px solid rgb(75, 151, 221);
+    border-radius: 5px;
+
+}
+#sign_out_button  
+{
+    width: 12%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: right;
+    margin-top: 2%;
+    padding: 1% 2%;
+    color: white;
+    background-color: rgb(75, 151, 221);
+    border: 1px solid rgb(75, 151, 221);
+    border-radius: 5px;
+
+}
+/* testing  */
+ #help_buttonf,#about_buttonf   
+    {
+    width: 12%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: right;
+    margin-top: 2%;
+    }
+#home_buttonf {
+    width: 12%;
+    margin-left: 0%;
+    margin-right: 30%; /* 30 to 20 */
+    margin-top: 2%;
+    float: right;
+    /*display: inline-block; */
+}
+/* end of testing  */
+
+#home_button {
+    width: 100%;
+   /* margin-left: 0%;
+    margin-right: 20%; /* 30 to 20 */ 
+    /*margin-top: 2%;
+    /*float: right; trying stuff*/
+    /*display: inline-block; */
+    padding: 8% 2%;
+    color: white;
+    background-color: rgb(75, 151, 221);
+    border: 1px solid rgb(75, 151, 221);
+    border-radius: 5px;
+}
+#home_button:hover, #sign_out_button:hover,#help_button:hover,#about_button:hover{
+    background-color: rgb(141, 179, 214); 
+}
+#submit:hover{
+    background-color: rgb(124, 184, 124);
+}
+#ca:hover{
+    background-color:rgb(128, 176, 221);
+}
+#fp:hover{
+    background-color:rgb(160, 116, 160);
+}
+
+.home_page_buttons{
+    display: inline;
+}
+/* exercise modal styling & formatting */
+
+#ename, #emuscle,#eweight, #ereps, #esets{
+    width: 80%;
+    padding: 0.5%;
+    /*font-size: 1rem;*/
+    height: 30%;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+/* was #ebutton */
+.ebutton{
+    padding: 1% 3.5%;
+    color: black;
+    border: 0px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    right: 25%;
+    bottom: 15%;
+    width: 50%; /* Full width */
+    height: 70%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    border-radius: 20%;
+    border: 5px solid white;
+    background-color: white;
+  
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    height: 5%;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+/* make default styling for buttons */
+  .button_default{
+    padding: 1% 3.5%;
+    color: white;
+    background-color: rgb(75, 151, 221);
+    border: 1px solid rgb(75, 151, 221);
+    border-radius: 5px;
+  }
+  .button_default:hover{
+    background-color:rgb(128, 176, 221);
+  }
+
+/*exercise table styling */
+.etable{
+    text-align: center;
+    margin:auto;
+}
+
+.table_bg
+{
+    background-color: white;
+    border: 3px solid white;
+    border-radius:10px;
+    color:black;
+    width: 90%;
+    margin:auto;
+}
+
+.table_bg2
+{
+    background-color: rgb(216, 163, 163);
+    border: 3px solid rgb(216, 163, 163);
+    border-radius:10px;
+    color:black;
+    width: 90%;
+    margin:auto;
+}
+
+.default_header
+{
+    text-align: center;
+    color: white;
+}
+
+.pwlist{
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    width: 80%;
+    margin:auto;
+  }
+  
+  li {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    margin:auto;
+  }
+
+  #pieChart{
+    height: 30%; 
+    width: 80%;
+    /*border: 10px solid orange;*/
+  }
+
+  .default_div{
+      /*height: 5%;*/
+      padding: 5%;
+      width: 80%;
+      text-align: center;
+  }
+  .default_content {
+    text-align: center;
+    color: white;
+  }
+  
+  /* for video on help page*/
+  .tutorial {
+      margin: auto;
+      text-align: center;
+  }
+
