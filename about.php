@@ -4,7 +4,6 @@
 Final Project (Individual)
 Class: Advanced Website Design
 Name: Shane Tracey
-Student ID: 105076627
 Due: August 4th, 2021
 About Page 
 -->       
@@ -37,7 +36,6 @@ else
     header("Location:index.php");
     exit();
   }
-//$username = "shaner"; 
 $quote = "Dreams don't work unless you do!";
 ?>
 <!-- Page menu bar-->
