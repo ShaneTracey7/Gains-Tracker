@@ -4,7 +4,6 @@
 Final Project (Individual)
 Class: Advanced Website Design
 Name: Shane Tracey
-Student ID: 105076627
 Due: August 4th, 2021
 home page (signed in) 
 -->       
@@ -106,9 +105,9 @@ php
 
 /* Connecting to DB */
 $servername = "localhost";
-$username = "traceyu_AVW"; 
-$password = "a3AVW";
-$dbname = "traceyu_a3AVW";
+//$usernamedb = *insert username for database*; 
+//$passworddb = *insert password for database*;
+//$dbname = *insert name of database*;
 
 //form has successfully been submitted
 if(!empty($_POST["fn"]))
