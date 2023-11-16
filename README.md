@@ -1,5 +1,7 @@
 # Gains-Tracker
 
+URL: http://comp2707.traceyu.myweb.cs.uwindsor.ca/Final/homePage.php
+
 Gains Tracker is an online workout tracking tool. It can log workouts, view previous workouts, keep track of personal bests, set and view fitness goals, and provide graphics based on your workout progress. The demographic is anyone 14 years old or older and is interested in their health and fitness. This tool is geared toward weight-lifting/strength training workouts.
 
 This web app was created for my final project for my Advanced Web Design class.
